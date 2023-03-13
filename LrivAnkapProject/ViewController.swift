@@ -86,6 +86,8 @@ class ViewController: UIViewController {
     
     @IBAction func playZona(_ sender: UIButton) {
         
+        print("Hello, Yurka!")
+        
         switch sender.tag {
         case 1:
             if orentated == .X {
